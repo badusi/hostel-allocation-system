@@ -1,0 +1,317 @@
+[]
+{"hostel_name":"Hannah Villa","gender":"male","total_capacity":"200","price_per_session":"55000","facilities":"free wi-fi and water","description":"Nice Rooms"}
+{"hostel_name":"Hannah Villa","gender":"male","total_capacity":"200","price_per_session":"55000","facilities":"free wi-fi and water","description":"Nice Rooms"}
+POST: {"hostel_name":"Hannah Villa","gender":"male","total_capacity":"200","price_per_session":"55000","facilities":"free wi-fi and water","description":"Nice Rooms"}
+FILES: {"hostel_image":{"name":"spin.png","full_path":"spin.png","type":"image\/png","tmp_name":"C:\\xampp\\tmp\\php372A.tmp","error":0,"size":421936}}
+{"hostel_name":"Hannah Villa","gender":"male","total_capacity":"200","price_per_session":"55000","facilities":"free wi-fi and water","description":"Nice Rooms"}
+POST: {"hostel_name":"Hannah Villa","gender":"male","total_capacity":"200","price_per_session":"55000","facilities":"free wi-fi and water","description":"Nice Rooms"}
+FILES: {"hostel_image":{"name":"spin.png","full_path":"spin.png","type":"image\/png","tmp_name":"C:\\xampp\\tmp\\phpE59C.tmp","error":0,"size":421936}}
+[]
+POST: []
+FILES: []
+[]
+POST: []
+FILES: []
+[]
+POST: []
+FILES: []
+{"hostel_name":"Hannah Villa","gender":"male","total_capacity":"200","price_per_session":"55000","facilities":"free wi-fi and water","description":"Nice Rooms","add_hostel":"1"}
+POST: {"hostel_name":"Hannah Villa","gender":"male","total_capacity":"200","price_per_session":"55000","facilities":"free wi-fi and water","description":"Nice Rooms","add_hostel":"1"}
+FILES: {"hostel_image":{"name":"spin.png","full_path":"spin.png","type":"image\/png","tmp_name":"C:\\xampp\\tmp\\php549C.tmp","error":0,"size":421936}}
+✅ Hostel insert triggered!
+{"hostel_id":"1","room_number":"200","capacity":"1","room_type":"single","price":"55000","facilities":"Wardrobe"}
+POST: {"hostel_id":"1","room_number":"200","capacity":"1","room_type":"single","price":"55000","facilities":"Wardrobe"}
+FILES: []
+[]
+POST: []
+FILES: []
+{"hostel_name":"ade villa","gender":"female","total_capacity":"40","price_per_session":"40000","facilities":"Wardrobe","description":"Nice Rooms","add_hostel":"1"}
+POST: {"hostel_name":"ade villa","gender":"female","total_capacity":"40","price_per_session":"40000","facilities":"Wardrobe","description":"Nice Rooms","add_hostel":"1"}
+FILES: {"hostel_image":{"name":"spispi.png","full_path":"spispi.png","type":"image\/png","tmp_name":"C:\\xampp\\tmp\\php4306.tmp","error":0,"size":30029}}
+✅ Hostel insert triggered!
+{"hostel_id":"2","room_number":"20","capacity":"2","room_type":"single","price":"20000","facilities":"Wardrobe"}
+POST: {"hostel_id":"2","room_number":"20","capacity":"2","room_type":"single","price":"20000","facilities":"Wardrobe"}
+FILES: []
+{"hostel_id":"2","room_number":"20","capacity":"2","room_type":"single","price":"20000","facilities":"Wardrobe"}
+POST: {"hostel_id":"2","room_number":"20","capacity":"2","room_type":"single","price":"20000","facilities":"Wardrobe"}
+FILES: []
+{"hostel_id":"2","room_number":"20","capacity":"2","room_type":"single","price":"20000","facilities":"Wardrobe"}
+POST: {"hostel_id":"2","room_number":"20","capacity":"2","room_type":"single","price":"20000","facilities":"Wardrobe"}
+FILES: []
+ROOM POST: {"hostel_id":"2","room_number":"20","capacity":"2","room_type":"single","price":"20000","facilities":"Wardrobe"}
+{"hostel_id":"2","room_number":"20","capacity":"2","room_type":"single","price":"40000","facilities":"Wardrobe","add_room":"1"}
+POST: {"hostel_id":"2","room_number":"20","capacity":"2","room_type":"single","price":"40000","facilities":"Wardrobe","add_room":"1"}
+FILES: []
+ROOM POST: {"hostel_id":"2","room_number":"20","capacity":"2","room_type":"single","price":"40000","facilities":"Wardrobe","add_room":"1"}
+✅ Add Room Triggered!
+{"hostel_id":"1","room_number":"1","capacity":"1","room_type":"single","price":"45000","facilities":"free wi-fi and water","add_room":"1"}
+POST: {"hostel_id":"1","room_number":"1","capacity":"1","room_type":"single","price":"45000","facilities":"free wi-fi and water","add_room":"1"}
+FILES: []
+ROOM POST: {"hostel_id":"1","room_number":"1","capacity":"1","room_type":"single","price":"45000","facilities":"free wi-fi and water","add_room":"1"}
+✅ Add Room Triggered!
+Session POST: []
+Session POST: {"session_name":"2023\/2024","start_date":"2023-03-20","end_date":"2025-10-20","add_session":"1"}
+Session POST: {"session_id":"1"}
+Session POST: {"session_id":"1"}
+Session POST: {"session_id":"1"}
+Active Session POST: {"session_id":"1"}
+Session POST: {"session_id":"1","set_active_session":"1"}
+Active Session POST: {"session_id":"1","set_active_session":"1"}
+✅ Add Active Session Triggered!
+Session POST: {"session_id":"1"}
+Active Session POST: {"session_id":"1"}
+Session POST: {"session_id":"1"}
+Active Session POST: {"session_id":"1"}
+Delete Session POST: {"session_id":"1"}
+Session POST: {"session_id":"1","delete_session":"1"}
+Active Session POST: {"session_id":"1","delete_session":"1"}
+Delete Session POST: {"session_id":"1","delete_session":"1"}
+✅  Delete Session Triggered!
+Session POST: {"session_name":"2023\/2024","start_date":"2023-03-20","end_date":"2025-10-20","add_session":"1"}
+Active Session POST: {"session_name":"2023\/2024","start_date":"2023-03-20","end_date":"2025-10-20","add_session":"1"}
+Delete Session POST: {"session_name":"2023\/2024","start_date":"2023-03-20","end_date":"2025-10-20","add_session":"1"}
+Session POST: {"session_id":"2","set_active_session":"1"}
+Active Session POST: {"session_id":"2","set_active_session":"1"}
+✅ Add Active Session Triggered!
+Delete Session POST: {"session_id":"2","set_active_session":"1"}
+[]
+POST: []
+FILES: []
+ROOM POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+Session POST: []
+Active Session POST: []
+Delete Session POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+Session POST: []
+Active Session POST: []
+Delete Session POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+{"hostel_name":"Hannah Villa 11","gender":"male","total_capacity":"40","price_per_session":"150000","facilities":"free wi-fi and water","description":"Big Rooms","add_hostel":"1"}
+POST: {"hostel_name":"Hannah Villa 11","gender":"male","total_capacity":"40","price_per_session":"150000","facilities":"free wi-fi and water","description":"Big Rooms","add_hostel":"1"}
+FILES: []
+✅ Hostel insert triggered!
+ROOM POST: {"hostel_name":"Hannah Villa 11","gender":"male","total_capacity":"40","price_per_session":"150000","facilities":"free wi-fi and water","description":"Big Rooms","add_hostel":"1"}
+{"hostel_id":"3","room_number":"1","capacity":"1","room_type":"single","price":"30000","facilities":"Wardrobe","add_room":"1"}
+POST: {"hostel_id":"3","room_number":"1","capacity":"1","room_type":"single","price":"30000","facilities":"Wardrobe","add_room":"1"}
+FILES: []
+ROOM POST: {"hostel_id":"3","room_number":"1","capacity":"1","room_type":"single","price":"30000","facilities":"Wardrobe","add_room":"1"}
+✅ Add Room Triggered!
+[]
+POST: []
+FILES: []
+ROOM POST: []
+Session POST: []
+Active Session POST: []
+Delete Session POST: []
+Session POST: []
+Active Session POST: []
+Delete Session POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+{"hostel_id":"3","room_number":"1","capacity":"4","room_type":"single","price":"40000","facilities":"","add_room":"1"}
+POST: {"hostel_id":"3","room_number":"1","capacity":"4","room_type":"single","price":"40000","facilities":"","add_room":"1"}
+FILES: []
+ROOM POST: {"hostel_id":"3","room_number":"1","capacity":"4","room_type":"single","price":"40000","facilities":"","add_room":"1"}
+✅ Add Room Triggered!
+Session POST: []
+Active Session POST: []
+Delete Session POST: []
+[]
+POST: []
+FILES: []
+ROOM POST: []
+{"hostel_id":"1","room_number":"1","capacity":"4","room_type":"single","price":"20000","facilities":"N\/A","add_room":"1"}
+POST: {"hostel_id":"1","room_number":"1","capacity":"4","room_type":"single","price":"20000","facilities":"N\/A","add_room":"1"}
+FILES: []
+ROOM POST: {"hostel_id":"1","room_number":"1","capacity":"4","room_type":"single","price":"20000","facilities":"N\/A","add_room":"1"}
+✅ Add Room Triggered!
+{"hostel_name":"bola","gender":"male","total_capacity":"120","price_per_session":"15000","facilities":"N\/A","description":"N\/A","add_hostel":"1"}
+POST: {"hostel_name":"bola","gender":"male","total_capacity":"120","price_per_session":"15000","facilities":"N\/A","description":"N\/A","add_hostel":"1"}
+FILES: []
+✅ Hostel insert triggered!
+ROOM POST: {"hostel_name":"bola","gender":"male","total_capacity":"120","price_per_session":"15000","facilities":"N\/A","description":"N\/A","add_hostel":"1"}
+{"hostel_id":"4","room_number":"1","capacity":"4","room_type":"single","price":"15000","facilities":"N\/A","add_room":"1"}
+POST: {"hostel_id":"4","room_number":"1","capacity":"4","room_type":"single","price":"15000","facilities":"N\/A","add_room":"1"}
+FILES: []
+ROOM POST: {"hostel_id":"4","room_number":"1","capacity":"4","room_type":"single","price":"15000","facilities":"N\/A","add_room":"1"}
+✅ Add Room Triggered!
+{"hostel_id":"2","delete_hostel":"1"}
+POST: {"hostel_id":"2","delete_hostel":"1"}
+FILES: []
+ROOM POST: {"hostel_id":"2","delete_hostel":"1"}
+{"hostel_id":"4","delete_hostel":"1"}
+POST: {"hostel_id":"4","delete_hostel":"1"}
+FILES: []
+ROOM POST: {"hostel_id":"4","delete_hostel":"1"}
+{"hostel_id":"1","delete_hostel":"1"}
+POST: {"hostel_id":"1","delete_hostel":"1"}
+FILES: []
+ROOM POST: {"hostel_id":"1","delete_hostel":"1"}
+{"hostel_id":"1","delete_hostel":"1"}
+POST: {"hostel_id":"1","delete_hostel":"1"}
+FILES: []
+ROOM POST: {"hostel_id":"1","delete_hostel":"1"}
+{"hostel_id":"3","delete_hostel":"1"}
+POST: {"hostel_id":"3","delete_hostel":"1"}
+FILES: []
+ROOM POST: {"hostel_id":"3","delete_hostel":"1"}
+{"hostel_id":"2","delete_hostel":"1"}
+POST: {"hostel_id":"2","delete_hostel":"1"}
+FILES: []
+ROOM POST: {"hostel_id":"2","delete_hostel":"1"}
+{"hostel_name":"bola","gender":"male","total_capacity":"1","price_per_session":"15000","facilities":"N\/A","description":"N\/A","add_hostel":"1"}
+POST: {"hostel_name":"bola","gender":"male","total_capacity":"1","price_per_session":"15000","facilities":"N\/A","description":"N\/A","add_hostel":"1"}
+FILES: []
+✅ Hostel insert triggered!
+ROOM POST: {"hostel_name":"bola","gender":"male","total_capacity":"1","price_per_session":"15000","facilities":"N\/A","description":"N\/A","add_hostel":"1"}
+{"hostel_id":"5","room_number":"1","capacity":"3","room_type":"single","price":"16000","facilities":"N\/A","add_room":"1"}
+POST: {"hostel_id":"5","room_number":"1","capacity":"3","room_type":"single","price":"16000","facilities":"N\/A","add_room":"1"}
+FILES: []
+ROOM POST: {"hostel_id":"5","room_number":"1","capacity":"3","room_type":"single","price":"16000","facilities":"N\/A","add_room":"1"}
+✅ Add Room Triggered!
+{"hostel_id":"5","room_number":"2","capacity":"4","room_type":"single","price":"15000","facilities":"N\/A","add_room":"1"}
+POST: {"hostel_id":"5","room_number":"2","capacity":"4","room_type":"single","price":"15000","facilities":"N\/A","add_room":"1"}
+FILES: []
+ROOM POST: {"hostel_id":"5","room_number":"2","capacity":"4","room_type":"single","price":"15000","facilities":"N\/A","add_room":"1"}
+✅ Add Room Triggered!
+Session POST: []
+Active Session POST: []
+Delete Session POST: []
+Session POST: {"session_id":"2","delete_session":"1"}
+Active Session POST: {"session_id":"2","delete_session":"1"}
+Delete Session POST: {"session_id":"2","delete_session":"1"}
+✅  Delete Session Triggered!
+Session POST: {"session_id":"2","delete_session":"1"}
+Active Session POST: {"session_id":"2","delete_session":"1"}
+Delete Session POST: {"session_id":"2","delete_session":"1"}
+✅  Delete Session Triggered!
+Session POST: {"session_id":"2","delete_session":"1"}
+Active Session POST: {"session_id":"2","delete_session":"1"}
+Delete Session POST: {"session_id":"2","delete_session":"1"}
+✅  Delete Session Triggered!
+Session POST: {"session_name":"2024\/2025","start_date":"2024-01-01","end_date":"2025-12-30","add_session":"1"}
+Active Session POST: {"session_name":"2024\/2025","start_date":"2024-01-01","end_date":"2025-12-30","add_session":"1"}
+Delete Session POST: {"session_name":"2024\/2025","start_date":"2024-01-01","end_date":"2025-12-30","add_session":"1"}
+Session POST: []
+Active Session POST: []
+Delete Session POST: []
+Session POST: {"session_id":"1","delete_session":"1"}
+Active Session POST: {"session_id":"1","delete_session":"1"}
+Delete Session POST: {"session_id":"1","delete_session":"1"}
+✅  Delete Session Triggered!
+Session POST: {"session_name":"2023\/2024","start_date":"2023-01-01","end_date":"2024-12-30","add_session":"1"}
+Active Session POST: {"session_name":"2023\/2024","start_date":"2023-01-01","end_date":"2024-12-30","add_session":"1"}
+Delete Session POST: {"session_name":"2023\/2024","start_date":"2023-01-01","end_date":"2024-12-30","add_session":"1"}
+Session POST: {"session_name":"2024\/2025","start_date":"2024-01-01","end_date":"2025-12-30","add_session":"1"}
+Active Session POST: {"session_name":"2024\/2025","start_date":"2024-01-01","end_date":"2025-12-30","add_session":"1"}
+Delete Session POST: {"session_name":"2024\/2025","start_date":"2024-01-01","end_date":"2025-12-30","add_session":"1"}
+Session POST: {"session_id":"3","set_active_session":"1"}
+Active Session POST: {"session_id":"3","set_active_session":"1"}
+✅ Add Active Session Triggered!
+Delete Session POST: {"session_id":"3","set_active_session":"1"}
+Session POST: []
+Active Session POST: []
+Delete Session POST: []
+Session POST: []
+Active Session POST: []
+Delete Session POST: []
+Session POST: {"session_id":"3","delete_session":"1"}
+Active Session POST: {"session_id":"3","delete_session":"1"}
+Delete Session POST: {"session_id":"3","delete_session":"1"}
+✅  Delete Session Triggered!

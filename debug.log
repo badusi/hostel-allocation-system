@@ -1,0 +1,221 @@
+2025-10-12 17:43:09 - === PAYMENT.PHP LOADED ===
+2025-10-12 17:43:09 - Student ID: 8
+2025-10-12 17:43:09 - Allocation found: YES
+2025-10-12 17:43:09 - Allocation ID: 8
+2025-10-12 17:43:09 - Allocation price: 15000.00
+2025-10-12 17:43:09 - === FORM SUBMITTED ===
+2025-10-12 17:43:09 - POST data: Array
+(
+    [card_number] => 1900 3487 9905 6623
+    [card_name] => abayomi israel blessing
+    [expiry_date] => 11/26
+    [cvv] => 262
+    [card_pin] => 2267
+)
+
+2025-10-12 17:43:35 - === PAYMENT.PHP LOADED ===
+2025-10-12 17:43:35 - Student ID: 8
+2025-10-12 17:43:35 - Allocation found: YES
+2025-10-12 17:43:35 - Allocation ID: 8
+2025-10-12 17:43:35 - Allocation price: 15000.00
+2025-10-12 17:43:35 - === FORM SUBMITTED ===
+2025-10-12 17:43:35 - POST data: Array
+(
+    [payment_method] => online_payment
+    [reference_number] => 2563277327873287
+    [amount] => 15000.00
+    [make_payment] => 
+)
+
+2025-10-12 17:43:35 - MAKE PAYMENT BUTTON CLICKED
+2025-10-12 17:43:35 - Session variables set, redirecting...
+2025-10-12 17:44:45 - === PAYMENT.PHP LOADED ===
+2025-10-12 17:44:45 - Student ID: 8
+2025-10-12 17:44:45 - Allocation found: YES
+2025-10-12 17:44:45 - Allocation ID: 8
+2025-10-12 17:44:45 - Allocation price: 15000.00
+2025-10-12 17:44:55 - === PAYMENT.PHP LOADED ===
+2025-10-12 17:44:55 - Student ID: 8
+2025-10-12 17:44:55 - Allocation found: YES
+2025-10-12 17:44:55 - Allocation ID: 8
+2025-10-12 17:44:55 - Allocation price: 15000.00
+2025-10-12 17:44:55 - === FORM SUBMITTED ===
+2025-10-12 17:44:55 - POST data: Array
+(
+    [process_online_payment] => 
+)
+
+2025-10-12 17:44:55 - ONLINE PAYMENT BUTTON CLICKED
+2025-10-12 17:44:55 - Online payment session set, redirecting...
+2025-10-12 17:50:53 - === PAYMENT.PHP LOADED ===
+2025-10-12 17:50:53 - Student ID: 8
+2025-10-12 17:50:53 - Allocation found: YES
+2025-10-12 17:50:53 - Allocation ID: 8
+2025-10-12 17:50:53 - Payment Status: pending
+2025-10-12 17:50:53 - Admin Approved: approved
+2025-10-12 17:50:53 - Allocation ID: 8
+2025-10-12 17:50:53 - Allocation price: 15000.00
+2025-10-12 17:51:12 - === PAYMENT.PHP LOADED ===
+2025-10-12 17:51:12 - Student ID: 8
+2025-10-12 17:51:12 - Allocation found: YES
+2025-10-12 17:51:12 - Allocation ID: 8
+2025-10-12 17:51:12 - Payment Status: pending
+2025-10-12 17:51:12 - Admin Approved: approved
+2025-10-12 17:51:12 - Allocation ID: 8
+2025-10-12 17:51:12 - Allocation price: 15000.00
+2025-10-12 17:51:12 - === FORM SUBMITTED ===
+2025-10-12 17:51:12 - POST data: Array
+(
+    [payment_method] => online_payment
+    [reference_number] => 2563277327873287
+    [amount] => 15000.00
+    [make_payment] => 
+)
+
+2025-10-12 17:51:12 - MAKE PAYMENT BUTTON CLICKED
+2025-10-12 17:51:12 - Form data - Method: online_payment, Reference: 2563277327873287, Amount: 15000
+2025-10-12 17:51:12 - Form validation passed
+2025-10-12 17:51:12 - STEP 1: Testing database connection and allocation
+2025-10-12 17:51:12 - Database connection test: SUCCESS
+2025-10-12 17:51:12 - Allocation exists - ID: 8, Current payment status: pending
+2025-10-12 17:51:12 - STEP 2: Testing simple update
+2025-10-12 17:51:12 - Simple update result: SUCCESS
+2025-10-12 17:51:12 - Simple update rows affected: 1
+2025-10-12 17:51:12 - SIMPLE UPDATE WORKED - Allocation can be updated
+2025-10-12 17:51:12 - STEP 3: Testing full update with all fields
+2025-10-12 17:51:12 - SQL: UPDATE allocations SET payment_status = "paid", payment_method = :method, payment_reference = :reference, amount_paid = :amount, payment_date = NOW() WHERE id = :id
+2025-10-12 17:51:12 - Parameters bound - Method: online_payment, Reference: 2563277327873287, Amount: 15000, ID: 8
+2025-10-12 17:51:12 - Full update result: SUCCESS
+2025-10-12 17:51:12 - Full update rows affected: 1
+2025-10-12 17:51:12 - DATABASE UPDATE SUCCESSFUL - Setting session and redirecting
+2025-10-12 17:51:12 - Session variables set, redirecting to payment_receipt.php
+2025-10-12 17:51:18 - === PAYMENT.PHP LOADED ===
+2025-10-12 17:51:18 - Student ID: 8
+2025-10-12 17:51:18 - Allocation found: YES
+2025-10-12 17:51:18 - Allocation ID: 8
+2025-10-12 17:51:18 - Payment Status: paid
+2025-10-12 17:51:18 - Admin Approved: approved
+2025-10-12 17:51:18 - Allocation ID: 8
+2025-10-12 17:51:18 - Allocation price: 15000.00
+2025-10-12 18:03:45 - === PAYMENT.PHP LOADED ===
+2025-10-12 18:03:45 - Student ID: 8
+2025-10-12 18:03:45 - Allocation found: YES
+2025-10-12 18:03:45 - Allocation ID: 9
+2025-10-12 18:03:45 - Payment Status: pending
+2025-10-12 18:03:45 - Admin Approved: approved
+2025-10-12 18:03:45 - Allocation ID: 9
+2025-10-12 18:03:45 - Allocation price: 15000.00
+2025-10-12 18:04:33 - === PAYMENT.PHP LOADED ===
+2025-10-12 18:04:33 - Student ID: 8
+2025-10-12 18:04:33 - Allocation found: YES
+2025-10-12 18:04:33 - Allocation ID: 9
+2025-10-12 18:04:33 - Payment Status: pending
+2025-10-12 18:04:33 - Admin Approved: approved
+2025-10-12 18:04:33 - Allocation ID: 9
+2025-10-12 18:04:33 - Allocation price: 15000.00
+2025-10-12 18:04:33 - === FORM SUBMITTED ===
+2025-10-12 18:04:33 - POST data: Array
+(
+    [card_number] => 1900 2245 6783 8392
+    [card_name] => abayomi israel blessing
+    [expiry_date] => 11/26
+    [cvv] => 221
+    [card_pin] => 1990
+)
+
+2025-10-12 18:04:33 - === PAYMENT PROCESSING COMPLETED (NO REDIRECT OCCURRED) ===
+2025-10-12 18:05:27 - === PAYMENT.PHP LOADED ===
+2025-10-12 18:05:27 - Student ID: 8
+2025-10-12 18:05:27 - Allocation found: YES
+2025-10-12 18:05:27 - Allocation ID: 9
+2025-10-12 18:05:27 - Payment Status: pending
+2025-10-12 18:05:27 - Admin Approved: approved
+2025-10-12 18:05:27 - Allocation ID: 9
+2025-10-12 18:05:27 - Allocation price: 15000.00
+2025-10-12 18:05:27 - === FORM SUBMITTED ===
+2025-10-12 18:05:27 - POST data: Array
+(
+    [card_number] => 5536 3673 8829 9827
+    [card_name] => abayomi israel blessing
+    [expiry_date] => 11/27
+    [cvv] => 289
+    [card_pin] => 1943
+)
+
+2025-10-12 18:05:27 - === PAYMENT PROCESSING COMPLETED (NO REDIRECT OCCURRED) ===
+2025-10-12 18:15:08 - === PAYMENT.PHP LOADED ===
+2025-10-12 18:15:08 - Student ID: 8
+2025-10-12 18:15:08 - Allocation found: YES
+2025-10-12 18:15:08 - Allocation ID: 9
+2025-10-12 18:15:08 - Payment Status: pending
+2025-10-12 18:15:08 - Admin Approved: approved
+2025-10-12 18:15:08 - Allocation ID: 9
+2025-10-12 18:15:08 - Allocation price: 15000.00
+2025-10-12 18:15:08 - === FORM SUBMITTED ===
+2025-10-12 18:15:08 - POST data: Array
+(
+    [card_number] => 5536 3673 8829 9827
+    [card_name] => abayomi israel blessing
+    [expiry_date] => 11/27
+    [cvv] => 289
+    [card_pin] => 1943
+)
+
+2025-10-12 18:15:08 - === PAYMENT PROCESSING COMPLETED (NO REDIRECT OCCURRED) ===
+2025-10-12 18:17:27 - === PAYMENT.PHP LOADED ===
+2025-10-12 18:17:27 - Student ID: 8
+2025-10-12 18:17:27 - Allocation found: YES
+2025-10-12 18:17:27 - Allocation ID: 9
+2025-10-12 18:17:27 - Payment Status: pending
+2025-10-12 18:17:27 - Admin Approved: approved
+2025-10-12 18:17:27 - Allocation ID: 9
+2025-10-12 18:17:27 - Allocation price: 15000.00
+2025-10-12 18:17:27 - === FORM SUBMITTED ===
+2025-10-12 18:17:27 - POST data: Array
+(
+    [card_number] => 4111 1111 1111 1111
+    [card_name] => abayomi israel blessing
+    [expiry_date] => 12/25
+    [cvv] => 123
+    [card_pin] => 1234
+)
+
+2025-10-12 18:17:27 - === PAYMENT PROCESSING COMPLETED (NO REDIRECT OCCURRED) ===
+2025-10-12 18:28:29 - === PAYMENT.PHP LOADED ===
+2025-10-12 18:28:29 - Student ID: 8
+2025-10-12 18:28:29 - Allocation found: YES
+2025-10-12 18:28:29 - Allocation ID: 9
+2025-10-12 18:28:29 - Payment Status: pending
+2025-10-12 18:28:29 - Admin Approved: approved
+2025-10-12 18:28:29 - Allocation ID: 9
+2025-10-12 18:28:29 - Allocation price: 15000.00
+2025-10-12 18:28:29 - === FORM SUBMITTED ===
+2025-10-12 18:28:29 - POST data: Array
+(
+    [card_number] => 4111 1111 1111 1111
+    [card_name] => abayomi israel blessing
+    [expiry_date] => 12/25
+    [cvv] => 123
+    [card_pin] => 1234
+)
+
+2025-10-12 18:28:29 - === PAYMENT PROCESSING COMPLETED (NO REDIRECT OCCURRED) ===
+2025-10-12 18:29:29 - === PAYMENT.PHP LOADED ===
+2025-10-12 18:29:29 - Student ID: 8
+2025-10-12 18:29:29 - Allocation found: YES
+2025-10-12 18:29:29 - Allocation ID: 9
+2025-10-12 18:29:29 - Payment Status: pending
+2025-10-12 18:29:29 - Admin Approved: approved
+2025-10-12 18:29:29 - Allocation ID: 9
+2025-10-12 18:29:29 - Allocation price: 15000.00
+2025-10-12 18:29:29 - === FORM SUBMITTED ===
+2025-10-12 18:29:29 - POST data: Array
+(
+    [card_number] => 4111 1111 1111 1111
+    [card_name] => abayomi israel blessing
+    [expiry_date] => 12/25
+    [cvv] => 123
+    [card_pin] => 1234
+)
+
+2025-10-12 18:29:29 - === PAYMENT PROCESSING COMPLETED (NO REDIRECT OCCURRED) ===

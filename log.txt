@@ -1,0 +1,4 @@
+Confirm Payment POST: {"payment_method":"pos","reference_number":"25632773278"}
+Confirm Payment POST: {"payment_method":"bank_transfer","reference_number":"25632773278","confirm_payment":"1"}
+✅ Add Confirm Payment Triggered!
+Confirm Payment POST: []
